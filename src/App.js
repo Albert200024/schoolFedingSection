@@ -13,7 +13,7 @@ function App() {
             <ReactVidioPlayer videoPath={multik}/>
         </div>
         <ProgramAbout/>
-        <div style={{height:"100px"}}>
+        <div>
            {/* Time Block */}
         </div>
         <Voit/>

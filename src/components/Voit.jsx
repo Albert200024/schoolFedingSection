@@ -30,8 +30,8 @@ const Voit = () => {
                           <div class="container">
                               <ul>
                                   <li>
-                                    <input type="radio" id="f-option" name="selector"/>
-                                    <label for="f-option">School N1</label>
+                                    <input type="radio" id={`selector${index+1}`} name={`selector`}/>
+                                    <label for={`selector${index+1}`}>School N1</label>
                                     <div class="check"></div>
                                   </li>
                               </ul>
